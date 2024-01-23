@@ -55,7 +55,7 @@ class SellerController extends Controller
                 $seller->payment_method = $request->input('payment_method');
                 $seller->maximum_limit = $request->input('maximum_limit');
                 $seller->minimum_limit = $request->input('minimum_limit');
-                $seller->rate = "99%";
+                $seller->rate = "5";
                 $seller->trades = "700";
                 $seller->save();
 
